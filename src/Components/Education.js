@@ -9,18 +9,20 @@ const Details = ({ type, time, place, info }) => {
       ref={ref}
       className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between md:w-[80%]"
     >
-    <LiIcon reference={ref}/>
-    <motion.div
-     initial={{y:50}}
-     whileInView={{y:0}}
-     transition={{duration:0.5,type:"spring"}}>
-
-      <h3 className="capitalize font-bold text-3xl sm:text-xl xs:text-lg">{type}</h3>
-      <span className="capitalize font-medium text-dark/75 dark:text-primaryDark/75 xs:text-sm">
-        {time}|{place}
-      </span>
-      <p className="font-medium w-full md:text-sm">{info}</p>
-    </motion.div>
+      <LiIcon reference={ref} />
+      <motion.div
+        initial={{ y: 50 }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.5, type: "spring" }}
+      >
+        <h3 className="capitalize font-bold text-3xl sm:text-xl xs:text-lg">
+          {type}
+        </h3>
+        <span className="capitalize font-medium text-dark/75 dark:text-primaryDark/75 xs:text-sm">
+          {time}|{place}
+        </span>
+        <p className="font-medium w-full md:text-sm">{info}</p>
+      </motion.div>
     </li>
   );
 };
@@ -43,23 +45,22 @@ const Education = () => {
       <div ref={ref1} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
         {/* scrolling  */}
         <motion.div
-          style={{scaleY:scrollYProgress}}
-          className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-primary md:w-[2px] md:left-[30px] xs:left-[20px]" 
+          style={{ scaleY: scrollYProgress }}
+          className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-primary md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
 
         <ul className="w-full flex flex-col items-start justify-between xs:ml-2">
-          
           <Details
-            type="Bachelor Of Engineering"
-            time="August 2019 - May 2023 "
-            place=" Savitribai Phule Pune University , Pune"
-            info="Related Coursework: Python Programming, Numerical & Statistical Methods, AIML, Operation Research"
+            type="Firt Year Student(HSSC-1)"
+            time="August 2025 - Present "
+            place=" Punjab Group Of College"
+            info="Quaid Campus, Rawalpindi, Pakistan"
           />
           <Details
-            type="12th board (CBSE)"
-            time="2018 "
-            place=" Nowrosjee Wadia College"
-            info="Pune, Maharashtra, India"
+            type="Metriculation(FBISE)"
+            time="Jan 2020-Mar 2025 "
+            place=" Future Generation School System"
+            info="Sector C-16, Islamabad, Pakistan"
           />
         </ul>
       </div>

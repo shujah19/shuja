@@ -102,14 +102,14 @@ const Navbar = () => {
             className={"ml-4"}
           ></CustomLink>
           <CustomLink
-            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=gauravsingh13020@gmail.com"
+            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=shujahyder313@gmail.com"
             title={"Contact"}
             className={"ml-6"}
           ></CustomLink>
         </nav>
         <nav className="flex item-center justify-center flex-wrap">
           <motion.a
-            href={"https://github.com/gaurav13020"}
+            href={"https://github.com/shujah19"}
             target="_blank"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -118,9 +118,7 @@ const Navbar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href={
-              "https://www.linkedin.com/in/gaurav13020/"
-            }
+            href={"https://www.linkedin.com/in/shujahaider313/"}
             target="_blank"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -171,14 +169,16 @@ const Navbar = () => {
             ></CustomMobileLink>
             <CustomMobileLink
               toggle={handlleClick}
-              href={"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=gauravsingh13020@gmail.com"}
+              href={
+                "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=shujahyder313@gmail.com"
+              }
               title={"Contact"}
               className={""}
             ></CustomMobileLink>
           </nav>
           <nav className="flex item-center justify-center flex-wrap mt-2">
             <motion.a
-              href={"https://github.com/gaurav13020"}
+              href={"https://github.com/shujah19"}
               target="_blank"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -187,7 +187,7 @@ const Navbar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href={"https://www.linkedin.com/in/gaurav13020"}
+              href={"https://www.linkedin.com/in/shujahaider313"}
               target="_blank"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
