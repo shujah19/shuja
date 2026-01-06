@@ -50,11 +50,11 @@ export default function Home() {
               <ul className="my-4 text-base font-medium md:text-sm sm:text-xs ">
                 <li className="m-1">
                   I&apos;m a Platform Compliance Intern at AIO and 1st year
-                  student at pgc. I'm studying while part time I&apos;m working
-                  for a US-based Company.This comes with many challenges such as
-                  steady focus, early mornings, late night and letting go to
-                  time with family and friends but I&apos;m commited with my
-                  goals.
+                  student at pgc. I&apos;m studying while part time I&apos;m
+                  working for a US-based Company.This comes with many challenges
+                  such as steady focus, early mornings, late night and letting
+                  go to time with family and friends but I&apos;m commited with
+                  my goals.
                 </li>
               </ul>
               {/* <p className="my-4 text-base font-medium md:text-sm sm:text-xs ">
