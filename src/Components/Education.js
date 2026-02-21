@@ -51,14 +51,14 @@ const Education = () => {
 
         <ul className="w-full flex flex-col items-start justify-between xs:ml-2">
           <Details
-            type="Firt Year Student(HSSC-1)"
+            type="First Year Student(HSSC-1)"
             time="August 2025 - Present "
             place=" Punjab Group Of College"
             info="Quaid Campus, Rawalpindi, Pakistan"
           />
           <Details
-            type="Metriculation(FBISE)"
-            time="Jan 2020-Mar 2025 "
+            type="Matriculation(FBISE)"
+            time="Jan 2024-Mar 2025 "
             place=" Future Generation School System"
             info="Sector C-16, Islamabad, Pakistan"
           />

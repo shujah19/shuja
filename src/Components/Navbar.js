@@ -187,7 +187,7 @@ const Navbar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href={"https://www.linkedin.com/in/shujahaider313"}
+              href={"https://www.linkedin.com/in/shujahyder313"}
               target="_blank"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
