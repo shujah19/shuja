@@ -66,7 +66,7 @@ const FeatureProject = ({ type, title, summary, img, github, link }) => {
             className="ml-4 rounded-lg bg-dark dark:bg-light dark:text-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base "
           >
             {" "}
-            Visit Project
+            Open Here
           </Link>
         </div>
       </div>
