@@ -58,7 +58,7 @@ const About = () => {
               <p className="font-medium">
                 Welcome to my corner of the digital world! I&apos;m Shuja
                 Haider, a passionate tech innovator currently contributing at
-                AIO, where I engage in hands-on projects spanning software
+                @AIO, where I engage in hands-on projects spanning software
                 development, AI solutions, and process optimization. At AIO, I
                 am part of a dynamic team, learning from industry experts while
                 implementing real-world systems that combine AI, web
